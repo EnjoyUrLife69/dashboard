@@ -1,6 +1,6 @@
 <!-- /.navbar-top-links -->
 <div class="navbar-header">
-    <a class="navbar-brand" href="index.html">Startmin</a>
+    <a class="navbar-brand" href="index.html">YOLO</a>
 </div>
 
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
