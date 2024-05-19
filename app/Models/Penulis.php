@@ -11,4 +11,10 @@ class Penulis extends Model
 
     protected $fillable = ['id' , 'nama_penulis' , 'jenis_kelamin'];
     public $timestamps = true;
+
+    // relasi ke tabel buku
+    public function buku()
+    {
+        return $this->hasMany(Buku::class);
+    }
 }

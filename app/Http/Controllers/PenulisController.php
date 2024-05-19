@@ -89,6 +89,8 @@ class PenulisController extends Controller
         return redirect()->route('penulis.index')
             ->with('success', 'data berhasil di ubah');
 
+            
+
     }
 
     /**

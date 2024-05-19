@@ -24,3 +24,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 use App\Http\Controllers\PenulisController;
 Route::resource('penulis', PenulisController::class);
+
+use App\Http\Controllers\BukuController;
+Route::resource('buku', BukuController::class);
