@@ -59,7 +59,7 @@
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            DataTables Advanced Tables
+                            Halaman ini merupakan dimana semua data-data Buku berada.
                         </div>
                         @if (session('success'))
                                     <div class="alert alert-success" role="alert">
