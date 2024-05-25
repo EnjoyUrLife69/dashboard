@@ -99,10 +99,10 @@
                                                         {{ $data->nama_penulis }}
                                                     </option>
                                                 @endforeach
-                                            </select>
+                                            </select><br>
                                             <div class="mb-3">
-                                                <label class="form-label">Cover</label>
-                                                <input type="file" class="form-control" name="cover" value="{{$buku->cover}}" disabled>
+                                                <label class="form-label">Cover</label><br>
+                                                <img src="{{asset('images/buku/' . $buku->cover) }}" width="100"><br><br>
                                             </div>
 
 
